@@ -139,13 +139,13 @@ button:focus {
 
 .visually-hidden {
   position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    border: 0
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
 
 .studio-list {
@@ -179,9 +179,7 @@ button:focus {
 .team {
   background-color: #f4f4fd;
   padding: 120px 0;
-
 }
-
 
 .team-tittle {
   text-decoration: underline;
@@ -194,20 +192,21 @@ button:focus {
   margin-bottom: 72px;
 }
 
-.team-ul{
+.team-ul {
   display: flex;
   gap: 24px;
 }
-.team-list__item {
+.team-item {
   background-color: #ffffff;
-  flex-basis: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  flex-basis: calc((100% - 72px) / 4);
 }
 
-.team-card {
+.team-info {
   padding: 32px 0;
 }
-.team-card__name {
+
+.team-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -217,12 +216,12 @@ button:focus {
   margin-bottom: 8px;
 }
 
-.team-card__role {
+.team-role {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  
+  text-align: center;
 }
 .our-tittle {
   text-align: center;
