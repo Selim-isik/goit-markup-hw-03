@@ -138,8 +138,18 @@ button:focus {
 }
 
 .visually-hidden {
-  font-size: 36px;
-  color: black;
+  position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0
+}
+
+.studio-list {
+  width: calc((100% - 72px) / 4);
 }
 
 .studio {
@@ -155,9 +165,6 @@ button:focus {
   margin-bottom: 8px;
 }
 
-.studio-list {
-  width: calc((100% - 72px)) / 4;
-}
 .section-ul {
   display: flex;
   gap: 24px;
@@ -181,12 +188,24 @@ button:focus {
   text-transform: capitalize;
   color: #2e2f42;
   font-size: 36px;
+  margin-bottom: 72px;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
+.team-ul{
+  display: flex;
+  gap: 24px;
+}
 .team-item {
   background-color: #ffffff;
+  flex-basis: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
+.team-div {
+  padding: 32px 0;
+}
 .team-name {
   font-weight: 500;
   font-size: 20px;
@@ -200,6 +219,7 @@ button:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  
 }
 .our-tittle {
   text-align: center;
