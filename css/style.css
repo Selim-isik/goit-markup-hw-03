@@ -198,24 +198,26 @@ button:focus {
   display: flex;
   gap: 24px;
 }
-.team-item {
+.team-list__item {
   background-color: #ffffff;
   flex-basis: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-div {
+.team-card {
   padding: 32px 0;
 }
-.team-name {
+.team-card__name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
-.team-role {
+.team-card__role {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
