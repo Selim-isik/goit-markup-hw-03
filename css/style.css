@@ -238,10 +238,10 @@ button:focus {
 }
 
 .our-ul {
- display: flex;
- flex-wrap: wrap;
- column-gap: 24px;
- row-gap: 48px;
+  display: flex;
+  column-gap: 24px;
+  row-gap: 48px;
+  flex-wrap: wrap
 }
 
 .our-tittle {
