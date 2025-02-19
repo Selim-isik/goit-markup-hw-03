@@ -225,9 +225,12 @@ button:focus {
 }
 
 .our {
-  padding: 120px;
+  padding: 120px 0;
 }
 
+.our-item {
+  flex-basis: calc((100% - 72px) / 4)
+}
 .our-info {
   padding: 32px 16px;
   border-top: none;
@@ -284,7 +287,6 @@ button:focus {
 .footer-info {
   display: inline-block;
   margin-bottom: 16px;
-  max-width: 264px;
 }
 .twice-logo {
   color: #f4f4fd;
@@ -296,4 +298,5 @@ button:focus {
   color: #f4f4fd;
   letter-spacing: 0.02em;
   line-height: 1.5;
+  max-width: 264px;
 }
