@@ -199,7 +199,6 @@ button:focus {
 .team-item {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
-
 }
 
 .team-info {
@@ -233,16 +232,18 @@ button:focus {
 }
 .our-info {
   padding: 32px 16px;
-  border: 1px solid #e7e9fc;
   border-top: none;
+  border: 1px solid #e7e9fc;
   margin-bottom: 8px;
 }
-ur-ul {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
+
+.our-ul {
+ display: flex;
+ flex-wrap: wrap;
+ column-gap: 24px;
+ row-gap: 48px;
 }
+
 .our-tittle {
   text-align: center;
   font-size: 36px;
