@@ -282,12 +282,10 @@ button:focus {
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   text-decoration: none;
-}
-
-.footer-info {
   display: inline-block;
   margin-bottom: 16px;
 }
+
 .twice-logo {
   color: #f4f4fd;
 }
