@@ -241,7 +241,7 @@ button:focus {
   display: flex;
   column-gap: 24px;
   row-gap: 48px;
-  flex-wrap: wrap
+  flex-wrap: wrap;
 }
 
 .our-tittle {
