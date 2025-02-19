@@ -282,8 +282,8 @@ ur-ul {
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   text-decoration: none;
-  display: inline-block;
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 .twice-logo {
