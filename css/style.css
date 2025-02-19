@@ -199,7 +199,7 @@ button:focus {
 .team-item {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
-  flex-basis: calc((100% - 72px) / 4);
+
 }
 
 .team-info {
@@ -223,6 +223,23 @@ button:focus {
   color: #434455;
   text-align: center;
 }
+
+.our {
+  padding: 120px;
+}
+
+.our-info {
+  padding: 32px 16px;
+  border-top: none;
+  border: 1px solid #e7e9fc;
+  margin-bottom: 8px;
+}
+.our-ul {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
 .our-tittle {
   text-align: center;
   font-size: 36px;
@@ -231,6 +248,7 @@ button:focus {
   text-decoration: underline;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .our-name {
@@ -249,6 +267,7 @@ button:focus {
 }
 .footer-tittle {
   background-color: #2e2f42;
+  padding: 100px 0px;
 }
 
 .footer-logo {
@@ -262,6 +281,11 @@ button:focus {
   text-decoration: none;
 }
 
+.footer-info {
+  display: inline-block;
+  margin-bottom: 16px;
+  max-width: 264px;
+}
 .twice-logo {
   color: #f4f4fd;
 }
