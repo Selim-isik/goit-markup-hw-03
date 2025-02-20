@@ -178,6 +178,9 @@ button:focus {
   padding: 0;
 }
 
+.team{
+  padding: 120px 0;
+}
 .team-tittle {
   margin-bottom: 72px;
   font-size: 36px;
@@ -200,7 +203,7 @@ button:focus {
 .team-item {
   width: calc((100% - 72px) / 4);
   background-color: #ffffff;
-  border-radius: 0px 0px 0px 4px;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-image {
@@ -236,7 +239,7 @@ button:focus {
 }
 
 .our-item {
-  flex-basis: calc((100% - 72px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 .our-info {
   padding: 32px 16px;
@@ -245,11 +248,19 @@ button:focus {
   margin-bottom: 8px;
 }
 
+.our-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 .our-ul {
   display: flex;
+  flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .our-tittle {
@@ -294,7 +305,6 @@ button:focus {
   margin-bottom: 16px;
   display: inline-block;
 }
-
 .twice-logo {
   color: #f4f4fd;
 }
